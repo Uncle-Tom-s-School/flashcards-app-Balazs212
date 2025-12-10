@@ -2,7 +2,7 @@ import React from 'react'
 
 const RestartBtn = () => {
   return (
-    <button className='restartBtn'>Újrakezdés</button>
+    <button className='restartBtn customBtn'>Újrakezdés</button>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewCardBtn = () => {
   return (
-    <button className='newCardBtn'>Új kártya hozzáadása</button>
+    <button className='newCardBtn customBtn'>Új kártya hozzáadása</button>
   )
 }
 
