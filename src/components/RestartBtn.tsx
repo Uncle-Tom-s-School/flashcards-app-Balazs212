@@ -1,8 +1,10 @@
-import React from 'react'
+type RestartBtnProp = {
+  Click: () => void;
+}
 
-const RestartBtn = () => {
+const RestartBtn = ({Click}:RestartBtnProp) => {
   return (
-    <button className='restartBtn customBtn'>Újrakezdés</button>
+    <button className='restartBtn customBtn' onClick={Click}>Újrakezdés</button>
   )
 }
 

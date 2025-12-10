@@ -1,8 +1,10 @@
-import React from 'react'
+type NewCardBtnProp = {
+  Click: () => void;
+}
 
-const NewCardBtn = () => {
+const NewCardBtn = ({Click}:NewCardBtnProp) => {
   return (
-    <button className='newCardBtn customBtn'>Új kártya hozzáadása</button>
+    <button className='newCardBtn customBtn' onClick={Click}>Új kártya hozzáadása</button>
   )
 }
 
